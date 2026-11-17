@@ -1,0 +1,35 @@
+{
+  "schema": "stellaria.sea.project.v2",
+  "id": "Stellaria-Studio/GCT-TTS-Experimental",
+  "name": "GCT-TTS-Experimental",
+  "repository": "Stellaria-Studio/GCT-TTS-Experimental",
+  "defaultBranch": "main",
+  "tier": "R",
+  "profile": "knowledge-runtime",
+  "purpose": "GCT-TTS-Experimental project infrastructure and repository-owned engineering knowledge.",
+  "visibility": "public",
+  "concepts": ".sea/concepts.json",
+  "invariants": [
+    "Source and project contracts remain authoritative; declared capabilities need matching execution evidence."
+  ],
+  "runtime": {
+    "repository": "Stellaria-Studio/Stellaria-SEA",
+    "version": "2.0.0",
+    "protocol": 2,
+    "sourceCommit": "6207b585ffabb8d182432bb3a03ba4d0a5279aa6"
+  },
+  "legacy": {
+    "definition": "tools/sea/project.json",
+    "history": "read-only; preserve original bytes"
+  },
+  "features": {
+    "contextBroker": true,
+    "architectureRegistry": true,
+    "localTaskCapsules": true,
+    "identityBinding": false,
+    "approvalWorkflow": false,
+    "enforcement": false,
+    "automaticPush": false
+  },
+  "sourceBaseline": "e5fbb347daeb4c0d34c9c4d6309c529da8c6893d"
+}

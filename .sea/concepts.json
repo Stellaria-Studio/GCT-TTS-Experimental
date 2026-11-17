@@ -1,0 +1,33 @@
+[
+  {
+    "id": "project-architecture",
+    "name": "GCT-TTS-Experimental architecture",
+    "aliases": [
+      "GCT-TTS-Experimental",
+      "GCT-TTS-Experimental",
+      "架构",
+      "职责"
+    ],
+    "intent": "GCT-TTS-Experimental project infrastructure and repository-owned engineering knowledge.",
+    "qualification": "DECLARED_PROJECT_KNOWLEDGE",
+    "invariants": [
+      "Source and project contracts remain authoritative; declared capabilities need matching execution evidence."
+    ],
+    "implementationPaths": [
+      "GCT-TTS"
+    ],
+    "dependsOn": [],
+    "acceptanceGates": [
+      "source identity",
+      "declared validation is not execution evidence"
+    ],
+    "sources": [
+      {
+        "path": "readme.md",
+        "line": 1,
+        "commit": "e5fbb347daeb4c0d34c9c4d6309c529da8c6893d"
+      }
+    ],
+    "validation": []
+  }
+]

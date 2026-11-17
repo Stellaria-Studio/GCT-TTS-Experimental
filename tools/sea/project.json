@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "GCT-TTS-Experimental",
+  "components": {
+    "project": {
+      "description": "GCT-TTS-Experimental project infrastructure and repository-owned engineering knowledge.",
+      "paths": [
+        "GCT-TTS"
+      ],
+      "approved": [
+        "readme.md"
+      ],
+      "required_files": [
+        "readme.md"
+      ],
+      "build_targets": [],
+      "validation": [],
+      "pitfalls": [
+        "Source and project contracts remain authoritative; declared capabilities need matching execution evidence."
+      ],
+      "evidence": []
+    }
+  },
+  "build_metadata": []
+}
